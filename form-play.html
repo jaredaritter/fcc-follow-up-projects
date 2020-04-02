@@ -1,0 +1,209 @@
+<link rel="stylesheet" href="form-play.css">
+<!-- TEXT FORM -->
+<form id="text-form" action="#">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" placeholder="name here" required>
+    
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email" placeholder="email here" required>
+    
+    <label for="number">Number:</label>
+    <input type="number" id="number" name="number" placeholder="number here" min="0" max="100" required>
+    
+    
+    <label for="dialogue">Dialogue:</label>  
+    <textarea name="dialogue" id="dialogue" cols="30" rows="2"></textarea>  
+  </form>
+  
+  
+  <div id="select-radio-container">
+  <!--   SELECT FORM -->
+    <form action="#" id="select-form">
+      <label for="pet-select">Pets:</label>
+      <select name="pets" id="pet-select">
+        <option value="">--Please choose an option--</option>
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="goldfish">Goldfish</option>
+        <option value="snake">Snake</option>
+      </select>
+  
+      <label for="ball-select">Balls:</label>
+      <select name="balls" id="ball-select">
+        <option value="">--Please choose--</option>
+        <optgroup label="Sports:">
+          <option value="soccer">Soccer</option>
+          <option value="tennis">Tennis</option>
+          <option value="golf">Golf</option>
+        </optgroup>
+        <optgroup label="Others:">
+          <option value="eye">Eye</option>
+          <option value="hair">Hair</option>
+          <option value="bucky">Bucky</option>
+        </optgroup>
+      </select>
+  
+      <label for="coffee-select">Coffee</label>
+      <select name="coffee" id="coffee-select" multiple>
+        <option value="">--Please choose a roast--</option>
+        <option value="blonde">Blonde</option>
+        <option value="medium">Medium</option>
+        <option value="delicious">Delicious</option>
+        <option value="terrible">Terrible</option>
+        <option value="golden-cup">Golden Cup</option>
+      </select>
+  
+      <label for="wine-select">Wine</label>
+      <select name="wine" id="wine-select">
+        <option value="">--Please Choose--</option>
+        <optgroup label="Whites:">
+          <option value="chardonnay">Chardonnay</option>
+          <option value="pinot-grigio">Pinot-Grigio</option>
+          <option value="reisling">Reisling</option>
+          <option value="souvignon-blanc">Souvignon Blanc</option>
+          <option value="zinfandel">Zinfandel</option>
+        </optgroup>
+        <optgroup label="Reds:">
+          <option value="bougeolais">Bougeolais</option>
+          <option value="cabernet">Cabernet</option>
+          <option value="merlot">Merlot</option>
+          <option value="pinot-noir">Pinot Noir</option>
+        </optgroup>
+      </select>
+  
+      <label for="other-select">Other</label>
+      <select name="other" id="other-select">
+        <option value="">Empty</option>
+        <optgroup label="Others">
+          <option value="other1">Other 1</option>
+          <option value="other2">Other 2</option>
+          <option value="other3">Other 3</option>
+        </optgroup>
+        <optgroup label="End">
+          <option value="end1">End 1</option>
+          <option value="end2">End 2</option>
+          <option value="end3">End 3</option>
+        </optgroup>
+      </select>
+    </form>
+    
+  <!--   RADIO FORM -->
+    <form action="#" id="radio-form">
+      <fieldset class="favorite-beer">
+        <legend>Favorite Beer:</legend>
+        <input type="radio" id="budweiser" name="favorite-beer" value="budweiser">
+        <label for="budweiser">Budweiser</label>
+        <input type="radio" id="michelob-ultra" name="favorite-beer" value="michelob-ultra">
+        <label for="michelob-ultra">Michelob Ultra</label>
+        <input type="radio" id="coors" name="favorite-beer" value="coors">
+        <label for="coors">Coors</label>
+        <input type="radio" id="pabst" name="favorite-beer" value="pabst" checked>
+        <label for="pabst">Pabst Blue Ribbon</label>
+        <input type="radio" id="corona" name="favorite-beer" value="corona">
+        <label for="corona">Corona</label>
+        <input type="radio" id="negro-modelo" name="favorite-beer" value="negro-modelo">
+        <label for="negro-modelo">Negro Modelo</label>
+        <input type="radio" id="natty-light" name="favorite-beer" value="natty-light">
+        <label for="natty-light">Natty Light</label>
+      </fieldset>
+      
+      <fieldset class="best-number">
+        <legend>Best Number:</legend>
+        <input type="radio" id="1" name="best-number" value="1" checked>
+        <label for="1">Number 1</label>
+        <input type="radio" id="2" name="best-number" value="2">
+        <label for="2">Number 2</label>
+        <input type="radio" id="3" name="best-number" value="3">
+        <label for="3">Number 3</label>
+        <input type="radio" id="4" name="best-number" value="4">
+        <label for="4">Number 4</label>
+        <input type="radio" id="5" name="best-number" value="5">
+        <label for="5">Number 5</label>
+        <input type="radio" id="6" name="best-number" value="6">
+        <label for="6">Number 6</label>
+        <input type="radio" id="7" name="best-number" value="7">
+        <label for="7">Number 7</label>
+      </fieldset>
+      
+      <fieldset class="penny-mood">
+        <legend>Penny Moods</legend>
+        <input type="radio" id="happy" name="penny-mood" value="happy">
+        <label for="happy">Happy</label>
+        <input type="radio" id="sad" name="penny-mood" value="sad">
+        <label for="sad">Sad</label>
+        <input type="radio" id="hungry" name="penny-mood" value="hungry">
+        <label for="hungry">Hungry</label>
+        <input type="radio" id="sleepy" name="penny-mood" value="sleepy">
+        <label for="sleepy">Sleepy</label>
+        <input type="radio" id="playful" name="penny-mood" value="playful">
+        <label for="playful">Playful</label>
+      </fieldset>
+      
+      <fieldset class="fourth">
+        <legend>Fourth</legend>
+        <input type="radio" id="a" name="letter" value="a">
+        <label for="a">a</label>
+        <input type="radio" id="b" name="letter" value="b">
+        <label for="b">b</label>
+        <input type="radio" id="c" name="letter" value="c">
+        <label for="c">c</label>
+      </fieldset>
+    </form>
+  </div>
+  
+  <!-- CHECKBOX-FORM -->
+  <form action="#" id="checkbox-form">
+    <fieldset id="box1" class="box">
+      <legend>Box 1</legend>
+      <label for="choice1">Choice 1
+      <input type="checkbox" id="choice1" name="group1" value="choice1">
+      </label>
+      <label for="choice2">Choice 2
+      <input type="checkbox" id="choice2" name="group1" value="choice2">
+      </label>
+      <label for="choice3">Choice 3
+      <input type="checkbox" id="choice3" name="group1" value="choice3">
+      </label>
+      <label for="choice4">Choice 4
+      <input type="checkbox" id="choice4" name="group1" value="choice4">
+      </label>
+    </fieldset>
+    
+    <fieldset id="box2" class="box">
+      <legend>Box 2</legend>
+      <label for="choice1">Choice 1
+      <input type="checkbox" id="choice1" name="group1" value="choice1">
+      </label>
+      <label for="choice2">Choice 2
+      <input type="checkbox" id="choice2" name="group1" value="choice2">
+      </label>
+      <label for="choice3">Choice 3
+      <input type="checkbox" id="choice3" name="group1" value="choice3">
+      </label>
+      <label for="choice4">Choice 4
+      <input type="checkbox" id="choice4" name="group1" value="choice4">
+      </label>
+    </fieldset>
+    
+    <fieldset id="box3" class="box">
+      <legend>Box 3</legend>
+      <label for="choice1">Choice 1
+      <input type="checkbox" id="choice1" name="group1" value="choice1">
+      </label>
+      <label for="choice2">Choice 2
+      <input type="checkbox" id="choice2" name="group1" value="choice2">
+      </label>
+      <label for="choice3">Choice 3
+      <input type="checkbox" id="choice3" name="group1" value="choice3">
+      </label>
+      <label for="choice4">Choice 4
+      <input type="checkbox" id="choice4" name="group1" value="choice4">
+      </label>
+    </fieldset>
+  </form>
+  
+  <!-- TEXTAREA-FORM -->
+  <form action="#" id="textarea-form">
+    <label for="comment">Comment:</label>
+    <textarea name="comment" id="comment" placeholder="Comment here"cols="60" rows="10"></textarea>
+  </form>
