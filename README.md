@@ -1,4 +1,4 @@
-# Repo of follow up projects to the FCC projects for repetition and combining techniques
+# Repo of follow ups to the FCC projects for repetition and combining techniques
 
 ## form-play
 
