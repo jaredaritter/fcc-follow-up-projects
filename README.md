@@ -14,3 +14,15 @@
     * Mixing flex and grid at this point leads to a lot of head scratching and looking for proper syntax
     * Minor tweaks taking a lot of time as well as trial and error to understand
     * Does not feel fluid
+
+## product-landing-page (fcc responsive web design project 3)
+
+* Straightforward project using general concepts addressed in lessons.
+* Fixed nav bar with internal page links
+* Video element and @media required
+* Pros:
+    * Minimal difficulty with implementation
+    * Had to look up video and @media implementation for reference and able to apply without difficulty
+* Cons: 
+    * No big ones for this project.
+    * Will need to figure out best practices for fixed nav bars on dynamically sized pages. The issue is keeping page spaced properly on larger screens when stretching can be an issue. Topic to pursue.
