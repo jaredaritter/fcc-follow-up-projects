@@ -26,3 +26,6 @@
 * Cons: 
     * No big ones for this project.
     * Will need to figure out best practices for fixed nav bars on dynamically sized pages. The issue is keeping page spaced properly on larger screens when stretching can be an issue. Topic to pursue.
+
+## technical-documentation-page (fcc responsive web design project 4)
+* To be updated
