@@ -45,3 +45,9 @@ body {
         padding-top: 10px;
     }
 }
+
+@media all and (min-width: 600px) {
+    body {
+        background-color: lightpink;
+    }
+}
