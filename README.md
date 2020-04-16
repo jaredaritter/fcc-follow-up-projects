@@ -52,3 +52,13 @@
     * Centering project link required extra time and trial and error to apply correctly
         * Will benefit from improved developer tool skills to find parent sources of styling
     Should I be spending more time polishing projects? Where is the greatest benefit?
+
+## dom-manipulation-basics
+* Creation of light webpage several using only JS
+* Practiced use of:
+    * querySelector
+    * createElement
+    * appendChild
+    * style.*
+* Could continue to be a useful exercise for repetitive practice with DOM syntax and light JS
+* Will benefit from DRYing out
