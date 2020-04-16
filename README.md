@@ -28,7 +28,27 @@
     * Will need to figure out best practices for fixed nav bars on dynamically sized pages. The issue is keeping page spaced properly on larger screens when stretching can be an issue. Topic to pursue.
 
 ## technical-documentation-page (fcc responsive web design project 4)
-* To be updated
+* Project on formatting and media queries
+* Focused on quick and efficient templating of required content
+* Minimal focus on styling and aesthetics
+* Pros:
+    * Improved visualization of layout prior to implementation
+    * Had a good idea how to implement challenge using flex and grid with efficient ability to check for semantics
+    * Learned about <pre> element for proper styling when using the <code> element
+    * Good practice with different types of width control for spacing and media queries
+* Cons:
+    * Best practices for spacing for modern web?
+    * Based on expected user or generically set up for all viewing types with focus on expected user?
+    * Extra time to implement grid properly for media query breakpoint
 
 ## personal-portfolio webpage (fcc responsive web design project 4)
-* To be updated
+* Creation of basic portfolio template
+* Rapid creation focused with less emphasis on styling
+* Significant time spent with different spacing practices to observe effects and control of space
+* Pros:
+    * Improving understanding of positioning
+    * Basic flexbox positioning becoming wrote
+* Cons:
+    * Centering project link required extra time and trial and error to apply correctly
+        * Will benefit from improved developer tool skills to find parent sources of styling
+    Should I be spending more time polishing projects? Where is the greatest benefit?
