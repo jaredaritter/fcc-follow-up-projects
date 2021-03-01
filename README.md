@@ -1,6 +1,6 @@
 # Repo of follow ups to the FCC projects for repetition and combining techniques
 
-## form-play
+## [form-play](https://jaredaritter.github.io/fcc-follow-up-projects/form-play.html)
 
 * Utilizing form elements in combination with grid and flexbox for positioning
 * Focus on reps utilizing different basic aspects of form elements and their attributes
