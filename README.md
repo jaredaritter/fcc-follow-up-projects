@@ -15,7 +15,7 @@
     * Minor tweaks taking a lot of time as well as trial and error to understand
     * Does not feel fluid
 
-## product-landing-page (fcc responsive web design project 3)
+## [product-landing-page (fcc responsive web design project 3)](https://jaredaritter.github.io/fcc-follow-up-projects/product-landing-page.html)
 
 * Straightforward project using general concepts addressed in lessons.
 * Fixed nav bar with internal page links
@@ -27,7 +27,7 @@
     * No big ones for this project.
     * Will need to figure out best practices for fixed nav bars on dynamically sized pages. The issue is keeping page spaced properly on larger screens when stretching can be an issue. Topic to pursue.
 
-## technical-documentation-page (fcc responsive web design project 4)
+## [technical-documentation-page (fcc responsive web design project 4)](https://jaredaritter.github.io/fcc-follow-up-projects/technical-documentation-page.html)
 * Project on formatting and media queries
 * Focused on quick and efficient templating of required content
 * Minimal focus on styling and aesthetics
@@ -41,7 +41,7 @@
     * Based on expected user or generically set up for all viewing types with focus on expected user?
     * Extra time to implement grid properly for media query breakpoint
 
-## personal-portfolio webpage (fcc responsive web design project 4)
+## [personal-portfolio webpage (fcc responsive web design project 4)](https://jaredaritter.github.io/fcc-follow-up-projects/personal-portfolio.html)
 * Creation of basic portfolio template
 * Rapid creation focused with less emphasis on styling
 * Significant time spent with different spacing practices to observe effects and control of space
@@ -53,7 +53,7 @@
         * Will benefit from improved developer tool skills to find parent sources of styling
     Should I be spending more time polishing projects? Where is the greatest benefit?
 
-## dom-manipulation-basics
+## [dom-manipulation-basics](https://jaredaritter.github.io/fcc-follow-up-projects/dom-manipulation-basics.html)
 * Creation of light webpage several using only JS
 * Practiced use of:
     * querySelector
